@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Prix Marché</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/journal/bootstrap.min.css" integrity="sha384-QDSPDoVOoSWz2ypaRUidLmLYl4RyoBWI44iA5agn6jHegBxZkNqgm2eHb6yZ5bYs" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Infos bar -->
+    <div class="bg-light p-3 d-md-flex d-block justify-content-between align-items-center">
+      <div class="logo-title mb-2">
+        <a href="#"><img src="images/logo.png" alt="" class="logo"></a>
+        <h1 class="ml-2"><a href="#">Prix Marché</a></h1>
+      </div>
+
+      <div class="desc">
+        <p class="text-left text-md-right">Tous vos besoins à petits prix dans le Valenciennois</p>
+        <ul class="steps list-unstyled font-weight-bold d-md-flex d-block">
+          <li class="step mr-2">
+            <span class="bg-primary text-white rounded-circle d-inline-block text-center">1</span> 
+            Choix et commande des articles
+          </li>
+          <li class="step mr-2">
+            <span class="bg-primary text-white rounded-circle d-inline-block text-center">2</span>
+            Retrait des articles
+          </li>
+          <li class="step">
+            <span class="bg-primary text-white rounded-circle d-inline-block text-center">3</span>
+            Paiement des articles
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <form class="form-inline my-2 my-lg-0">
+          <div class="btn-group mr-2" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-secondary mb-2 mb-sm-0 w-100">Catégories</button>
+            <div class="btn-group mb-2 mb-sm-0" role="group">
+              <button id="btnGroupDrop3" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
+                <a class="dropdown-item" href="#">Dropdown link</a>
+                <a class="dropdown-item" href="#">Dropdown link</a>
+              </div>
+            </div>
+          </div>
+          <input class="form-control mr-sm-2" type="text" placeholder="Recherche...">
+          <button class="btn btn-secondary my-2 my-sm-0 btn-sm-block btn-inline" type="submit">Rechercher</button>
+        </form>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Catalogue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Questions fréquentes</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Connexion</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- content -->
+    <div class="container mt-5 mb-5">
+      <h2 class="text-primary mb-5">Questions fréquentes</h2>
+      <div class="row">
+          <div class="col">
+            <div class="tab-pane" id="tab6" role="tabpanel" aria-labelledby="tab6">
+                <div class="accordion" id="accordion-tab-6">
+                    <div class="card">
+                        <div class="card-header" id="accordion-tab-6-heading-1">
+                            <h5>
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-6-content-1" aria-expanded="false" aria-controls="accordion-tab-6-content-1">Première visite et inscription</button>
+                            </h5>
+                        </div>
+                        <div class="collapse show" id="accordion-tab-6-content-1" aria-labelledby="accordion-tab-6-heading-1" data-parent="#accordion-tab-6">
+                            <div class="card-body">
+                              <p>Prixmarche.fr est également disponible depuis l'application WIX.</p>
+                                
+                              <p> Pour la première installation : <br>
+                                <br>
+                                Veuillez cliquer sur <a href="https://apps.wix.com/place-invites/invite-lp/cc563780-e9cc-4cbd-bad1-7e363ffec865?ref=so">ce lien pour télécharger l'application</a> et suivre les instructions.<br>
+                                <br>
+                                Lors des visites suivantes, aller directement sur l'appli WIX munis de vos identifiants renseignés sur l'application (attention : ils peuvent être différents de ceux du site <a href="index.html">primarche.fr</a>)
+                                <br><br>
+                                (Si nécessaire, le code d'invitation de Prixmarche.fr est <strong>KKB8EE</strong>)
+                              </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="accordion-tab-6-heading-2">
+                            <h5>
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-6-content-2" aria-expanded="false" aria-controls="accordion-tab-6-content-2">Prixmarche.fr depuis votre application mobile</button>
+                            </h5>
+                        </div>
+                        <div class="collapse" id="accordion-tab-6-content-2" aria-labelledby="accordion-tab-6-heading-2" data-parent="#accordion-tab-6">
+                            <div class="card-body">
+                                <p>
+                                  Les produits sont vendus à l'unité sauf mention spécifique. Le prix indiqué correspond au prix unitaire toutes taxes comprises. A noter que la TVA n'est pas récupérable pour les professionnels. <br>
+                                  Vous pouvez préciser le nombre d'articles à l'aide de la case Quantité, la taille ou la couleur mais également ajouter des précisions dans la zone "Préciser votre besoin" si besoin.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="accordion-tab-6-heading-3">
+                            <h5>
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-6-content-3" aria-expanded="false" aria-controls="accordion-tab-6-content-3">Quels sont les moyens de paiement ?</button>
+                            </h5>
+                        </div>
+                        <div class="collapse" id="accordion-tab-6-content-3" aria-labelledby="accordion-tab-6-heading-3" data-parent="#accordion-tab-6">
+                            <div class="card-body">
+                                <p>
+                                  La marchandise est à retirer sur rendez-vous en Magasin ou au Point retrait sur les marchés. Vous serez informé par Mail ou SMS de l'avancement de la préparation de votre demande. <br><br>
+
+                                  Si vous souhaitez un retrait sur les Points retraits Marché desservis, merci de préciser la ville et le jour du marché souhaité dans la zone Remarque de la page panier (cliquer sur voir ou modifier panier pour y accéder).<br><br>
+                                  
+                                  Le paiement se fait lors du retrait. Seuls les articles retirés seront facturés.<br><br>
+                                  
+                                  Il vous appartient de vérifier que les produits correspondent à votre précommande, sont complets et ne présentent pas de défauts majeurs. Pour rappel, les articles ne sont ni repris, ni échangés sauf vices cachés.<br><br>
+                                  
+                                  <strong> --- En période de confinement, les précisions vous seront apportées afin de garantir les gestes barrières. ---</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="accordion-tab-6-heading-4">
+                            <h5>
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-6-content-4" aria-expanded="false" aria-controls="accordion-tab-6-content-4">Pourquoi renseigner mes informations personnelles</button>
+                            </h5>
+                        </div>
+                        <div class="collapse" id="accordion-tab-6-content-4" aria-labelledby="accordion-tab-6-heading-4" data-parent="#accordion-tab-6">
+                            <div class="card-body">
+                              <ul>
+                                Le paiement s'effectue comptant lors du retrait :
+                                <li>montant inférieur à 10€ : espèces</li>
+                                <li>montant supérieur à 10€ : espèces ou carte bancaire  </li>
+                              </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="accordion-tab-6-heading-5">
+                          <h5>
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-6-content-5" aria-expanded="false" aria-controls="accordion-tab-6-content-5">Retours et échanges</button>
+                          </h5>
+                      </div>
+                      <div class="collapse" id="accordion-tab-6-content-5" aria-labelledby="accordion-tab-6-heading-5" data-parent="#accordion-tab-6">
+                          <div class="card-body">
+                              <p>
+                                Lors du parcours de précommande, les informations adresses sont nécessaire pour passer à l'étape suivante. <br>
+                                Pour rappel, les informations nominatives sont strictement confidentielles et ne sont destinées qu’au site Prixmarche.fr. <br> 
+                                Le Client dispose d’un droit d’accès, de modification, de rectification depuis la rubrique Mon compte. <br>
+                                Pour supprimer les données vous concernant, vous devez adresser votre demande de suppression depuis le formulaire Contact. <br>
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="accordion-tab-6-heading-6">
+                        <h5>
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-6-content-6" aria-expanded="false" aria-controls="accordion-tab-6-content-5">Réclamations</button>
+                        </h5>
+                    </div>
+                    <div class="collapse" id="accordion-tab-6-content-6" aria-labelledby="accordion-tab-6-heading-6" data-parent="#accordion-tab-6">
+                        <div class="card-body">
+                          <p>I don't 'need' to drink. I can quit anytime I want! THE BIG BRAIN AM WINNING AGAIN! I AM THE GREETEST! NOW I AM LEAVING EARTH, FOR NO RAISEN! There's one way and only one way to determine if an animal is intelligent. Dissect its brain!</p>
+                          <p><strong>Example: </strong>Guess again. Yeah, I do that with my stupidness. And when we woke up, we had these bodies.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+    <!-- / content -->
+
+    <div class="bg-primary p-3 mt-5 text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 mb-4">
+            <div class="d-flex align-items-center">
+              <span class="fa fa-tag fa-2x mr-3"></span>
+              <div>
+                <h5>Articles à petit prix</h5>
+                <p class="mb-0">La majorité des produits sont à 1 euro</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-4">
+            <div class="d-flex align-items-center">
+              <span class="fa fa-truck fa-2x mr-3"></span>
+              <div>
+                <h5>Achats sans soucis</h5>
+                <p class="mb-0">Chaque commande est fournis mains à mains</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-4">
+            <div class="d-flex align-items-center">
+              <span class="fa fa-truck fa-2x mr-3"></span>
+              <div>
+                <h5>Paiement sécurisé</h5>
+                <p class="mb-0">Payez sans vous souciez lors du retrait</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="d-flex align-items-center">
+              <span class="fa fa-truck fa-2x mr-3"></span>
+              <div>
+                <h5>Livraison Valenciennoise</h5>
+                <p class="mb-0">Ce que vous voulez, préparé pour les valenciennois et les alentours</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <div>
+              <a href="#" class="d-block pt-2 pb-2">Accueil</a>
+              <a href="#" class="d-block pt-2 pb-2">Catalogue</a>
+              <a href="#" class="d-block pt-2 pb-2">Questions fréquentes</a>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="text-sm-right">
+              <a href="#" class="d-block pt-2 pb-2">Première visite</a>
+              <a href="#" class="d-block pt-2 pb-2">Livraison retrait</a>
+              <a href="#" class="d-block pt-2 pb-2">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-primary text-center p-2">
+        <a href="#">Mentions légales</a> | <a href="#">Conditions générales d’utilisation et de ventes</a>
+      </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
